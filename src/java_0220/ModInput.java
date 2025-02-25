@@ -14,5 +14,6 @@ public class ModInput {
         System.out.println(people + "人分" + apple + "個蘋果,");
         System.out.println("每人分" + q + "個， 還剩" + r + "個");
 
+        sc.close();
     }
 }
