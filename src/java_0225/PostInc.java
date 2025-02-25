@@ -11,5 +11,6 @@ public class PostInc {
         j = (++i) * 10; // ++i為前置遞增
         System.out.println("變數i的內容是:" + i);
         System.out.println("變數j的內容是:" + j);
+
     }
 }
