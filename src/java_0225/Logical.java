@@ -8,6 +8,6 @@ public class Logical {
         System.out.println("a && b = " + (a && b));
         System.out.println("a | b = " + (a | b));
         System.out.println("a || b = " + (a || b));
-        System.out.println("a ^ b = " + (a ^ b)); //xor 是不同才為true
+        System.out.println("a ^ b = " + (a ^ b)); //xor 是兩者皆不同才為true
     }
 }
