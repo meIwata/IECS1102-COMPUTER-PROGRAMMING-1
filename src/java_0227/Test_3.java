@@ -1,12 +1,11 @@
 package java_0227;
-
 import java.util.Scanner;
 
 /* 雞兔同籠計算機程式，使用者輸入頭腳分別是多少，程式輸出雞兔各有幾隻。例如: 頭: 8，腳: 26。
 輸出為: 雞:3 兔:5。若無解則輸出: "該數據無解"
 */
 
-public class TestThree {
+public class Test_3 {
     public static void main(String[] args) {
         System.out.println("請輸入頭的數量"); // 0兔 20雞
         Scanner sc = new Scanner(System.in);

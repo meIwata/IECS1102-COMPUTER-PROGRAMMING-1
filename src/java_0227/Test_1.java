@@ -1,11 +1,10 @@
 package java_0227;
-
 import java.util.Scanner;
 
 /*假設某自動售票機只能接受10元, 5元及1元的硬幣。請設計一程式，當使用者輸入一小於999的正整數數字時，他所需投入各種幣值硬幣最少的數量分別是多少?
 若數字大於999則顯示: 輸入過大。例如使用者輸入: 123，則程式顯示 10元12個，5元0個，1元3個。
 */
-public class TestOne {
+public class Test_1 {
     public static void main(String[] args) {
         System.out.println("請輸入一個小於999的正整數:");
         Scanner sc = new Scanner(System.in);
