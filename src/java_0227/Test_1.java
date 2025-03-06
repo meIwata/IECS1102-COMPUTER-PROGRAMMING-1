@@ -9,7 +9,7 @@ public class Test_1 {
         System.out.println("請輸入一個小於999的正整數:");
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        if (num >0 && num <= 999) {
+        if (num >=0 && num <= 999) {
             int a = 10, b = 5, c = 1;
 
             int result10 = num / a;
