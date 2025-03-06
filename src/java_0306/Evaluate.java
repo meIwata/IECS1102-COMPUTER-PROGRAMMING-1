@@ -25,5 +25,6 @@ public class Evaluate {
                 System.out.println("輸入錯誤!");
                 break;
         }
+        sc.close();
     }
 }
