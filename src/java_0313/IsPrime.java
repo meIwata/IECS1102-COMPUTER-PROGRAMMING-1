@@ -18,35 +18,33 @@ public class IsPrime {
             int range = (num / 2) + (num % 2); // range範圍: 一半 或 一半+1
             // System.out.println(range);
 
-            for (int i = 2; i <= range; i++) {
-                if (num % i == 0) {
-                    isPrime = false;
-                    break;
-                }
-            }
-            if (isPrime) {
-                System.out.println(num + " 是質數");
-            } else {
-                System.out.println(num + " 不是質數");
-            }
-
             // for (int i = 2; i <= range; i++) {
-            // if (num % i == 0) {
-            // if (isPrime == true) {
-            // isPrime = false;
-            // System.out.print(num + " 不是質數, 可被 " + i);
-            // }
-            // }
-            // else {
-            // System.out.println(" " + i);
-            // }
+            //     if (num % i == 0) {
+            //         isPrime = false;
+            //         break;
+            //     }
             // }
             // if (isPrime) {
-            // System.out.println(num +" 是質數");
+            //     System.out.println(num + " 是質數");
+            // } else {
+            //     System.out.println(num + " 不是質數");
             // }
-            // else{
-            // System.out.println(" 整除");
-            // }
+
+            for (int i = 2; i <= range; i++) {
+                if (num % i == 0) {
+                    if (isPrime == true) {
+                        isPrime = false;
+                        System.out.print(num + " 不是質數, 可被 " + i);
+                    }else {
+                        System.out.println(" " + i);
+                    }
+                }
+            }if (isPrime) {
+            System.out.println(num +" 是質數");
+            }
+            else{
+            System.out.println(" 整除");
+            }
         }
 
     }
