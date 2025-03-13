@@ -15,7 +15,7 @@ public class IsPrime {
             if (num == 0)
                 break;
             boolean isPrime = true;
-            int range = (num / 2) + (num % 2);
+            int range = (num / 2) + (num % 2); // range範圍: 一半 或 一半+1
             // System.out.println(range);
 
             for (int i = 2; i <= range; i++) {
