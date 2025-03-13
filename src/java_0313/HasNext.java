@@ -19,5 +19,6 @@ public class HasNext {
             sum = sum + i;
         }
         System.out.println("1 到 "+range+" 的所有奇數和為 "+sum);
+        sc.close();
     }
 }
