@@ -13,7 +13,7 @@ public class IsPrime {
             String str = br.readLine();
             int num = Integer.parseInt(str);
             if (num == 0)
-                break;
+                break; // 輸入0就跳出迴圈，結束程式
             boolean isPrime = true;
             int range = (num / 2) + (num % 2); // range範圍: 一半 或 一半+1
             // System.out.println(range);
