@@ -14,26 +14,25 @@ public class IsPrime {
             int num = Integer.parseInt(str);
             if (num == 0)
                 break; // 輸入0就跳出迴圈，結束程式
+
+
+            /* 質數需>0，1不是質數 */
+            else if (num < 0) {
+                System.out.println("數值不可小於0，請輸入正整數");
+                continue;
+            } else if (num == 1) {
+                System.out.println("1 不是質數");
+                continue; 
+            }
+
             boolean isPrime = true;
             int range = (num / 2) + (num % 2); // range範圍: 一半 或 一半+1
-            // System.out.println(range);
 
-            // for (int i = 2; i <= range; i++) {
-            // if (num % i == 0) {
-            // isPrime = false;
-            // break;
-            // }
-            // }
-            // if (isPrime) {
-            // System.out.println(num + " 是質數");
-            // } else {
-            // System.out.println(num + " 不是質數");
-            // }
             for (int i = 2; i <= range; i++) { // 除數範圍: 2 ~ range
                 if (num % i == 0) { // num 可被 i 整除
-                    if (isPrime) { 
+                    if (isPrime) {
                         isPrime = false; // 不是質數的話
-                        System.out.print(num + " 不是質數, 可被 " + i);
+                        System.out.print(num + " 不是質數，可被 " + i);
                     } else {
                         System.out.println(" " + i);
                     }

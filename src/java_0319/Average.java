@@ -1,4 +1,4 @@
-package java_0319;
+ package java_0319;
 
 public class Average {
     public static void main(String[] args) {
