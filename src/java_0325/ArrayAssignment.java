@@ -8,19 +8,19 @@ public class ArrayAssignment {
         b[2] = 100;
         System.out.print("印出陣列 a 的內容: ");
         // for (int i = 0; i < a.length; i++) {
-        //     System.out.print(a[i] + " ");
+        // System.out.print(a[i] + " ");
         // }
-        for(int i:a){
+        for (int i : a) {
             System.out.print(i + " ");
         }
-        System.out.println("");
-        
+        System.out.println();
+
         System.out.print("印出陣列 b 的內容: ");
         // for (int i = 0; i < b.length; i++) {
-        //     System.out.print(b[i] + " ");
+        // System.out.print(b[i] + " ");
         // }
 
-        for(int i:b){
+        for (int i : b) {
             System.out.print(i + " ");
         }
     }
