@@ -25,7 +25,7 @@ public class IsPrime {
                 continue; 
             }
 
-            boolean isPrime = true;
+            boolean isPrime = true; //宣告布林值，預設是質數
             int range = (num / 2) + (num % 2); // range範圍: 一半 或 一半+1
 
             for (int i = 2; i <= range; i++) { // 除數範圍: 2 ~ range

@@ -5,23 +5,23 @@ import java.util.Scanner;
 public class Test_8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("請輸入第一次密碼(4個數字): ");
+        System.out.print("請輸入第一次密碼(四碼): ");
         // int num1 = sc.nextInt();
         String num1 = sc.next();
         while (num1.length() != 4) {
             System.out.println("密碼長度有誤!");
-            System.out.print("請重新輸入第一次密碼(4個數字): ");
+            System.out.print("請重新輸入第一次密碼(四碼): ");
             num1 = sc.next();
         }
 
         int count = 0;
         while (true) {
-            System.out.print("請再次輸入密碼(4個數字): ");
+            System.out.print("請再次輸入密碼(四碼): ");
             // int num2 = sc.nextInt();
             String num2 = sc.next();
             while (num2.length() != 4) {
                 System.out.println("密碼長度有誤!");
-                System.out.print("請重新輸入第二次密碼(4個數字): ");
+                System.out.print("請重新輸入第二次密碼(四碼): ");
                 num2 = sc.next();
             }
             count++;
