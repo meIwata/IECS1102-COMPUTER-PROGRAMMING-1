@@ -13,6 +13,7 @@ public class ArrayAssignment {
         for (int i : a) {
             System.out.print(i + " ");
         }
+        
         System.out.println();
 
         System.out.print("印出陣列 b 的內容: ");
