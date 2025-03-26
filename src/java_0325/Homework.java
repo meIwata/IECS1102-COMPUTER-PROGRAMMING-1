@@ -21,7 +21,9 @@ public class Homework {
         //     sumw += w;
         // }
         
-        System.out.println("平均身高: " + (sumh / values.length));
-        System.out.println("平均體重: " + (sumw / values.length));
+        // System.out.println("平均身高: " + (sumh / values.length));
+        // System.out.println("平均體重: " + (sumw / values.length));
+        System.out.printf("平均身高: %.2f%n", (sumh / values.length)); // 使用printf取到小數後兩位
+        System.out.printf("平均體重: %.2f%n", (sumw / values.length)); // 使用printf取到小數後兩位
     }
 }
